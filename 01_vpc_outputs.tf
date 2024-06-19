@@ -24,3 +24,8 @@ output "azs" {
 # output "nat_public_ips" {
 #   value       = module.vpc.nat_public_ips
 # }
+
+# VPC Public Subnets
+output "public_subnets" {
+  value = module.vpc.public_subnets
+}
